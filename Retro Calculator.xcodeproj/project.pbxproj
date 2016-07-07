@@ -14,6 +14,7 @@
 		76139D441D2C99E1002B79B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76139D421D2C99E1002B79B4 /* LaunchScreen.storyboard */; };
 		76139D4F1D2C99E2002B79B4 /* Retro_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76139D4E1D2C99E2002B79B4 /* Retro_CalculatorTests.swift */; };
 		76139D5A1D2C99E2002B79B4 /* Retro_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76139D591D2C99E2002B79B4 /* Retro_CalculatorUITests.swift */; };
+		76139D681D2DDF5D002B79B4 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76139D671D2DDF5D002B79B4 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		76139D551D2C99E2002B79B4 /* Retro CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retro CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76139D591D2C99E2002B79B4 /* Retro_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_CalculatorUITests.swift; sourceTree = "<group>"; };
 		76139D5B1D2C99E2002B79B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76139D671D2DDF5D002B79B4 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		76139D381D2C99E1002B79B4 /* Retro Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				76139D671D2DDF5D002B79B4 /* Minecraft.ttf */,
 				76139D391D2C99E1002B79B4 /* AppDelegate.swift */,
 				76139D3B1D2C99E1002B79B4 /* ViewController.swift */,
 				76139D3D1D2C99E1002B79B4 /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					76139D351D2C99E1002B79B4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZH845MTME4;
 					};
 					76139D491D2C99E2002B79B4 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,6 +235,7 @@
 			files = (
 				76139D441D2C99E1002B79B4 /* LaunchScreen.storyboard in Resources */,
 				76139D411D2C99E1002B79B4 /* Assets.xcassets in Resources */,
+				76139D681D2DDF5D002B79B4 /* Minecraft.ttf in Resources */,
 				76139D3F1D2C99E1002B79B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Retro Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.morgan.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Retro Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.morgan.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
